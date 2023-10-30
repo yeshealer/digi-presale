@@ -1,5 +1,7 @@
 import React from 'react'
-import { Video, CloudinaryContext } from "cloudinary-react";
+import * as cloudinaryReact from "cloudinary-react";
+
+const { Video, CloudinaryContext }: any = cloudinaryReact;
 
 export default function VidPlayer(videoref: any) {
     return (
