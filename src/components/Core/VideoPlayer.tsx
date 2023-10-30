@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react'
-import { Video, CloudinaryContext } from "cloudinary-react";
+import VidPlayer from './VidPlayer';
 import { useInView } from "react-intersection-observer";
 
 export default function VideoPlayer() {
@@ -13,21 +13,8 @@ export default function VideoPlayer() {
         }
     });
 
-    const VidPlayer = React.memo((videoref: any) => {
-        return (
-            <CloudinaryContext cloud_name="codedog">
-                <Video
-                    publicId="videoplayer-demo"
-                    width="100%"
-                    controls
-                    innerref={videoref}
-                />
-            </CloudinaryContext>
-        );
-    });
-
     return (
-        <div ref={ref} className='z-10'>
+        <div ref={ref} className='z'>
             <VidPlayer videoref={videoref} />
         </div>
     )
