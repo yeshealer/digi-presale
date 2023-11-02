@@ -27,7 +27,7 @@ export default function Roadmap() {
                                 <div className='w-full h-full z-10 flex items-center pr-0 lg:pr-24'>
                                     <ul className="w-full grid gird-cols-1 md:grid-cols-2 gap-4 text-purple-200 list-disc list-outside dark:text-purple-200 text-lg">
                                         {item.detail.map(detail => (
-                                            <li>{detail}</li>
+                                            <li key={detail}>{detail}</li>
                                         ))}
                                     </ul>
                                 </div>
