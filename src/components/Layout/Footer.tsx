@@ -1,9 +1,6 @@
 import React from 'react'
 import TwitterIcon from '../Icons/Twitter'
-import FacebookIcon from '../Icons/Youtube'
 import TelegramIcon from '../Icons/Telegram'
-import DiscordIcon from '../Icons/Discord'
-import InstagramIcon from '../Icons/Instagram'
 import YoutubeIcon from '../Icons/Youtube'
 
 export default function Footer() {
