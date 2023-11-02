@@ -9,7 +9,7 @@ export default function Roadmap() {
                 <div className='text-5xl md:text-6xl xl:text-7xl font-bold text-purple-200 text-center lg:text-start z-10'>Roadmap</div>
                 {RoadmapDetail.map((item, index) => {
                     return (
-                        <div className="indicator w-full">
+                        <div className="indicator w-full" key={item.period}>
                             {index === 0 && <span className="indicator-item indicator-center badge badge-primary z-30">
                                 <div className='text-2xl p-3'>Current</div>
                             </span>}

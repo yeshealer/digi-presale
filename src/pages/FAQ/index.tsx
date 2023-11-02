@@ -9,7 +9,7 @@ export default function FAQ() {
                 <div className="join join-vertical w-full">
                     {FAQDetail.map(item => {
                         return (
-                            <div className="collapse collapse-arrow join-item border border-base-300">
+                            <div className="collapse collapse-arrow join-item border border-base-300" key={item.question}>
                                 <input type="checkbox" name="my-accordion-4" />
                                 <div className="collapse-title text-xl font-medium">
                                     {item.question}
