@@ -1,9 +1,10 @@
 import React from 'react'
 import TwitterIcon from '../Icons/Twitter'
-import FacebookIcon from '../Icons/Facebook'
+import FacebookIcon from '../Icons/Youtube'
 import TelegramIcon from '../Icons/Telegram'
 import DiscordIcon from '../Icons/Discord'
 import InstagramIcon from '../Icons/Instagram'
+import YoutubeIcon from '../Icons/Youtube'
 
 export default function Footer() {
     return (
@@ -35,12 +36,10 @@ export default function Footer() {
                     <p>Digi Finance <br />Providing reliable tech since 1992</p>
                 </aside>
                 <nav className="md:place-self-center md:justify-self-end">
-                    <div className="grid grid-flow-col gap-4">
+                    <div className="grid grid-flow-col gap-6">
                         <TwitterIcon />
-                        <FacebookIcon />
-                        <InstagramIcon />
+                        <YoutubeIcon />
                         <TelegramIcon />
-                        <DiscordIcon />
                     </div>
                 </nav>
             </footer>

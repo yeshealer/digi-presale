@@ -11,7 +11,7 @@ export default function WhiteList() {
                         <button className="btn btn-primary">WhiteList</button>
                     </div>
                     <div className='text-center text-sm md:text-base'>
-                        Please provide your wallet address for whitelisting. You can see the result here in few hours.
+                        Please whitelist to create your Referral link
                     </div>
                 </div>
             </div>

@@ -8,9 +8,9 @@ export default function Referral() {
             <div className="mockup-window border border-base-300 w-full max-w-7xl">
                 <div className="flex flex-col md:flex-row items-center gap-4 p-4 sm:p-8 md:p-12 lg:p-16 border-t border-base-300">
                     <div className='text-purple-200 w-full md:w-1/2'>
-                        <div>Your Referrers Deposit: <span className='text-lg font-bold text-purple-400'>1000</span> USDT</div>
-                        <div>Your Referral Bonus: <span className='text-lg font-bold text-purple-400'>50</span> USDT</div>
-                        <div>Your Withdrawn Bonus: <span className='text-lg font-bold text-purple-400'>50</span> USDT</div>
+                        Must purchase during presale to unlock referral bonus.
+                        <div>Earn <span className='text-lg font-bold text-purple-400'>2.5%</span> of your referrals purchase in presale.</div>
+                        <div>Both get <span className='text-lg font-bold text-purple-400'>2.5%</span>.</div>
                     </div>
                     <div className='divider divider-horizontal hidden md:block' />
                     <div className="form-control w-full md:w-1/2">

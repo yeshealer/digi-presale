@@ -1,22 +1,27 @@
 export const TokenomicsBuyJSON = [
     {
-        label: 'Liquidity',
-        percent: '20',
+        label: 'Token Presale',
+        percent: 20,
         color: '#CDBDF3'
     },
     {
-        label: 'Marketing',
-        percent: '40',
+        label: 'Community Rewards and Marketing',
+        percent: 50,
         color: '#36c3fe'
     },
     {
-        label: 'Ecosystem Development',
-        percent: '20',
+        label: 'Liquidity Provision',
+        percent: 20,
         color: '#ACF2C4'
     },
     {
-        label: 'Team',
-        percent: '20',
+        label: 'Airdrop',
+        percent: 5,
         color: '#FDEBB3'
+    },
+    {
+        label: 'Team',
+        percent: 5,
+        color: '#fb7185'
     },
 ]

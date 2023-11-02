@@ -4,6 +4,7 @@ import Header from '@/components/Layout/Header'
 import AboutUs from '@/pages/AboutUs'
 import ContactUs from '@/pages/ContactUs'
 import FAQ from '@/pages/FAQ'
+import Features from '@/pages/Features'
 import Overview from '@/pages/Overview'
 import Referral from '@/pages/Referral'
 import Roadmap from '@/pages/Roadmap'
@@ -18,9 +19,10 @@ export default function Home() {
       <Overview />
       <AboutUs />
       <WhiteList />
+      <Referral />
+      <Features />
       <Tokenomics />
       <Roadmap />
-      <Referral />
       <SubscribeNewsLetter />
       <ContactUs />
       <FAQ />
